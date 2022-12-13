@@ -77,17 +77,17 @@ After generating the "final.pb" file, we now generate the spice file("spice.sp" 
 This step takes the pdks, and the design as input and gives the spice file as output.
 To generate the spice file, follow the below steps in BigSpicy directory:
 
-```
-./bigspicy.py --import \
-    --verilog example_inputs/iiitb_uarttx_rc/iiitb_uarttx_rc.v \
+```./bigspicy.py --import \
+    --verilog example_inputs/iiitb_uarttx/iiitb_uarttx.v \
     --spice lib/sky130_fd_sc_hd.spice \
     --spice_header lib/sky130_fd_pr__pfet_01v8.pm3.spice \
     --spice_header lib/sky130_fd_pr__nfet_01v8.pm3.spice \
     --spice_header lib/sky130_ef_sc_hd__decap_12.spice \
     --spice_header lib/sky130_fd_pr__pfet_01v8_hvt.pm3.spice \
     --save final.pb \
-    --top iiitb_uarttx_rc \
+    --top iiitb_uarttx \
     --flatten_spice --dump_spice spice.sp
+
 
 ```
 
