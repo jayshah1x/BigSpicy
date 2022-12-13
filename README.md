@@ -103,5 +103,7 @@ We expect this to be a lot faster method for timing analysis than the other tool
 
 
 * Kunal Ghosh, Director VSD Corp. Pvt. Ltd.
-* IIIT Bangalore
+* Dr. Nanditha Rao, IIIT Bangalore
+* Dr. Madhav Rao, IIIT Bangalore
+* Arya Reais-Parsi, PhD Candidate at University of California, Berkeley
 
