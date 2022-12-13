@@ -95,9 +95,9 @@ The above steps will generate "spice.sp" file in the mentioned directory.
 
 # Future Works
 
-Presently we are working on performing tests on the generated spice file "spice.sp".
-We are trying to find the path delay for few paths using Xyce and compare the same with other available tools.
-We expect this to be a lot faster method for timing analysis than the other tools available now.
+We are currently working on testing the generated spice file "spice.sp".
+Then we have to determine the path delay for our design through Xyce test and for this test we need to list down the different paths using xyce and compare the delay results with other available tools.
+
 
 # Acknowledgements
 
